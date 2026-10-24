@@ -20,7 +20,6 @@ A single-agent system built with the [OpenAI Agents SDK](https://openai.github.i
 ```
 mcgill_advisor_agent.ipynb   # all code: fixtures, tools, guardrails, agent, tests, evals
 README.md
-reflection.docx              # what failed, what improved, what is still risky
 requirements.txt
 .gitignore
 evidence/                    # screenshots of runs
@@ -138,7 +137,7 @@ The agent only *flags* this; nothing in this project routes to a human. A real s
 
 `evidence/run_query_comp251.png` - a single query run.
 
-`evidence/eval_run_before_fixes.png` - an early eval run (3/7). Most failures turned out to be bugs in the tests themselves; see `reflection.docx` for the diagnosis and what changed.
+`evidence/eval_run_before_fixes.png` - an early eval run (3/7). Most failures turned out to be bugs in the tests themselves.
 
 `evidence/eval_run_after_fixes.png` - the current eval run.
 
