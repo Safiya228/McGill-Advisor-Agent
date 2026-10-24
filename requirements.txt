@@ -1,0 +1,6 @@
+# Tip: after a successful run, pin the exact version you tested with
+#   pip show openai-agents
+# InputGuardrail(run_in_parallel=...) needs a recent release, so upgrade if you see a TypeError.
+openai-agents
+pydantic>=2
+jupyter
